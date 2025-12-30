@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Outfit:wght@100..900&family=Poiret+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+.apple_cards {
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  position: relative;
+}
+.apple_cards img {
+  width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.apple_cards .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.apple_cards .container .content {
+  text-align: center;
+  position: relative;
+}
+.apple_cards .container .content div {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.apple_cards .container .content h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.apple_cards .container .content p {
+  font-size: 16px;
+  color: #666;
+}
+.content .links{
+  margin-top: 100px;
+  width: 100% !important;
+  display: flex;
+}
+button {
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  outline: none;
+  border: 0.5px solid #0071e3;
+  background: transparent;
+}
+.btn1{
+    background-color: #0071e3;
+    color: #fff;
+}
+.btn2{
+    color:#0071e3;
+}
+.btn2:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
