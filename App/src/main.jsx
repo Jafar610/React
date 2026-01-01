@@ -18,3 +18,10 @@ createRoot(document.getElementById('root')).render(
     <Footer />
   </StrictMode>,
 )
+
+createRoot(document.getElementById('store')).render(
+  <StrictMode>
+    <Header />
+    <Footer />
+  </StrictMode>,
+)
