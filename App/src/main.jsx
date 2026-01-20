@@ -6,6 +6,7 @@ import Iphone from './components/Iphone/iphone.jsx'
 import Airpod from './components/AirPod/Airpod.jsx'
 import Watch  from  './components/Watch/Watch.jsx'
 import Apple_Cards from './components/Cards/Apple_Cards.jsx'
+import YoutubeVedio from './components/LatestVideo/YoutubeVedio.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -15,13 +16,7 @@ createRoot(document.getElementById('root')).render(
     <Airpod />
     <Watch />
     <Apple_Cards />
-    <Footer />
-  </StrictMode>,
-)
-
-createRoot(document.getElementById('store')).render(
-  <StrictMode>
-    <Header />
+    <YoutubeVedio />
     <Footer />
   </StrictMode>,
 )

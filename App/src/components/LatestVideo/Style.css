@@ -1,0 +1,37 @@
+.youtube-vedio {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.youtube-vedio h2 {
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+}
+.youtube-vedio:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.youtube-vedio:focus {
+  outline: 2px solid #007BFF;
+  outline-offset: 2px;
+}
+.youtube-vedio .vedio{
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.youtube-vedio .vedio:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+.youtube-vedio .vedio:focus{
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
+}
+.youtube-vedio .vedio iframe{
+    border-radius: 8px;
+}
