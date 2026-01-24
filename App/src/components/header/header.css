@@ -20,16 +20,16 @@
     padding-left: 100px;
     
 }
-ul li{
+ul .list{
     list-style: none;
     margin-right: 40px;
     font-size: 14px;
     font-family: Outfit;
 }
-ul li a{
+ul .list{
     text-decoration:none;
     color:#fff;
 }
-ul li a img{
+ul .list img{
     width:15px;
 }
