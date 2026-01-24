@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')).render(
     <Airpod />
     <Watch />
     <Apple_Cards />
-    <YoutubeVedio />
+    {/* <YoutubeVedio /> */}
     <Footer />
   </StrictMode>,
 )
